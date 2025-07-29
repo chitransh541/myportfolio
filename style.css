@@ -1,4 +1,4 @@
-/* style.css — Dark Themed UI/UX Portfolio with Purple-Pink Accent */
+/* style.css — Dark Themed UI/UX Portfolio with Purple-Pink Accent and Updated Link Colors */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
 
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: linear-gradient(120deg, #ac0ca4, #b026ff, #ff2d95);
+  background: linear-gradient(120deg, #6a0dad, #b026ff, #ff2d95);
   text-align: center;
   padding: 80px 20px 40px;
   color: #e2e8f0;
@@ -143,6 +143,18 @@ section h2 {
 ul {
   padding-left: 20px;
   line-height: 1.8;
+}
+
+/* Custom styling for contact links */
+section#contact a {
+  color: #ff80bf;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+section#contact a:hover {
+  color: #f472b6;
+  text-decoration: underline;
 }
 
 footer {
